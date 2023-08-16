@@ -1,33 +1,112 @@
 <html>
 <head>
-<title>Lisson1</title>
+
+<style>
+h1{
+font-size:50px;
+text-align:center;
+background-color:pink;
+height:150px;
+line-height:150px;
+}
+.x{
+display:flex;
+justify-content:center;
+}
+
+.xx{
+font-size:20px;
+width:300px;
+}
+ 
+h2{
+text-align:center;
+padding:20px;
+}
+
+p{
+font-weight:bold;
+}
+
+</style>
 </head>
 <body>
-<h1>checkbox練習</h1>
-A商品:1,000円<input type="checkbox" name="checkbox" value=1000 id="A" onchange="C()">
-B商品:1,500円<input type="checkbox" name="checkbox" value=1500 id="B" onchange="C()">
-<br>
-合計金額:<span id="out">0</span>
-<button onclick="R()">reload</button>
+<h1>Unity 3Dゲーム説明</h1>
+<h2>スタート画面</h2>
+<div class="x">
+<div class="xx"> 
+<img src="img/pic.png">
+</div>
 
-<script>
-function C(){
-let = total = 0;
+<div class="xx">
+<p>
+このシーンはｃｃｃｃｃｃｃｃｃｃvvvvvvvvvvvvv
+</p>
+</div>
+</div>
 
-if (document.getElementById("A").checked){
-total += parseInt(document.getElementById("A").value);
-}
 
-if (document.getElementById("B").checked){
-total += parseInt(document.getElementById("B").value);
-}
+<h2>ファーストシーン</h2>
+<div class="x">
+<div class="xx">
+<img src="img/pic.png">
+</div>
 
-document.getElementById("out").textContent = total.toLocaleString();
-}
+<div class="xx">
+<p>
+このシーンはｃｃｃｃｃｃｃｃｃｃ
+</p>
+</div>
 
-function R(){
-location.reload();
-}
-</script>
+</div>
+
+
+<h2>ラストシーン</h2>
+<div class="x">
+<div class="xx">
+<img src="img/pic.png">
+</div>
+
+<div class="xx">
+<p>
+このシーンはｃｃｃｃｃｃｃｃｃｃ
+</p>
+</div>
+
+</div>
+
+
+<h2>ゲームオーバーシーン</h2>
+<div class="x">
+<div class="xx">
+<img src="img/pic.png">
+</div>
+
+<div class="xx">
+<p>
+このシーンはｃｃｃｃｃｃｃｃｃｃ
+</p>
+</div>
+
+</div>
+
+
+<h2>ゲームクリアシーン</h2>
+<div class="x">
+<div class="xx">
+<img src="img/pic.png">
+</div>
+
+<div class="xx">
+<p>
+このシーンはｃｃｃｃｃｃｃｃｃｃ
+</p>
+</div>
+
+</div>
+
+
+
+
 </body>
 </html>

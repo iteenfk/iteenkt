@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Lisson1</title>
+</head>
+<body>
+<h1>checkbox練習</h1>
+A商品:1,000円<input type="checkbox" name="checkbox" value=1000 id="A" onchange="C()">
+B商品:1,500円<input type="checkbox" name="checkbox" value=1500 id="B" onchange="C()">
+<br>
+合計金額:<span id="out">0</span>
+<button onclick="R()">reload</button>
+
+<script>
+function C(){
+let = total = 0;
+
+if (document.getElementById("A").checked){
+total += parseInt(document.getElementById("A").value);
+}
+
+if (document.getElementById("B").checked){
+total += parseInt(document.getElementById("B").value);
+}
+
+document.getElementById("out").textContent = total.toLocaleString();
+}
+
+function R(){
+location.reload();
+}
+</script>
+</body>
+</html>

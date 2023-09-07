@@ -1,105 +1,73 @@
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ホームページの練習</title>
+    <style>
+        h1{
+            color: aqua;
+            background-color: bisque;
+        }
 
-<style>
-h1{
-font-size:20px;
-text-align:center;
-background-color:pink;
-height:50px;
-line-height:50px;
-}
-.x{
-display:flex;
-justify-content:center;
-}
+        h2{
+            color: blue;
+            background-color: brown;
+        }
 
-.xx{
-font-size:15px;
-width:400px;
-}
- 
-h2{
-font-size:15px;
-text-align:center;
-padding:20px;
-}
+        h3{
+            color: blueviolet;
+            background-color: aqua;
+        }
 
-p{
-font-weight:bold;
-margin-left:100px;
-}
-
-.p1{
-border:2px dotted red;
-width:200px;
-height:200px;
-}
-
-</style>
+        p{
+            font-size: 20px;
+            font-weight: bold;
+            color: blueviolet;
+            background-color: brown;
+        }
+    </style>
 </head>
 <body>
-<h1>Unity 3Dゲーム説明</h1>
+    おはようございます
+    <h1>おはようございます。</h1>
+    <h2>おはようございます。</h2>
+    <h3>おはようございます。</h3>
 
-<h2>スタート画面</h2>
-<div class="x">
-<div class="xx"> 
-<img src="img/pic1.png" width="400">
-</div>
-<div class="xx">
-<p class="p1">
-　この画面は、ゲームのスタート画面です。ボタンを押すと、ファーストシーンに飛ぶようになっています。
-</p>
-</div>
-</div>
+    <img src="mario.png" alt="マリオの写真" width="300">
 
-<h2>ファーストシーン</h2>
-<div class="x">
-<div class="xx">
-<img src="img/pic2.png" width="400">
-</div>
-<div class="xx">
-<p class="p1">
-  この画面は、ファーストシーンです。コースの先にあるピンク色の弾に触れると、ファイナルシーンにいるボスに挑むことができます。
-</p>
-</div>
-</div>
+    <p>
+        これは、マリオの写真です。
+        おしまい。
+    </p>
 
-<h2>ラストシーン</h2>
-<div class="x">
-<div class="xx">
-<img src="img/pic3.png" width="400">
-</div>
-<div class="xx">
-<p class="p1">
- このシーンは、ラストシーンです。ボスのHPは、5,000です、プレーヤーが発射した銃の弾がボスに当たると、HPが10ずつ減ります、ボスのHPが0になると、このゲームをクリアできます。
-</p>
-</div>
-</div>
+    <a href="https://yahoo.co.jp">yahoo</a>
+    <br><br>
+    <a href="https://yahoo.co.jp" target="_blank" rel="noopener noreferrer">yahoo2</a>
+    <br><br>
+    <a href="https://google.co.jp" target="_blank" rel="noopener noreferrer">google</a>
+    <br><br>
+    <a href="https://msn.co.jp" target="_blank" rel="noopener noreferrer">msn</a>
+    <br><br>
+    <a href="https://rakuten.co.jp" target="_blank" rel="noopener noreferrer">rakuten</a>
+    <br>
+    <button>ok</button>
+    <br>
+    <input type="text">
+    <br>
+    <input type="number">
+    <br>
+    <input type="range">
+    <br>
+    <input type="date">
+    <br>
+    <select name="" id="">
+        <option value="">県名</option>
+        <option value="">福岡県</option>
+        <option value="">佐賀県</option>
+        <option value="">長崎</option>
+    </select>
 
-<h2>ゲームオーバーシーン</h2>
-<div class="x">
-<div class="xx">
-<img src="img/pic4.png" width="400">
-</div>
-<div class="xx">
-<p class="p1">
- この画面は、ゲームオーバーシーンです．ラストシーンでボスに負けると、この画面に飛びます。ボタンを押すと、ファーストシーンに飛びます。
-</p>
-</div>
-</div>
-
-<h2>ゲームクリアシーン</h2>
-<div class="x">
-<div class="xx">
-<img src="img/pic5.png" width="400">
-</div>
-<div class="xx">
-<p class="p1">
-この画面は、ゲームクリアシーンです。ラストシーンでボスのHPを０にすると、この画面に飛びます。
-</p>
-</div>
-</div>
-
+    
 </body>
 </html>
